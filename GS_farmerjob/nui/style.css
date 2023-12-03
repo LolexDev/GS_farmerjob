@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --layoutColor: #FF2626;
+    --themeColor: rgba(39, 39, 39, 0.9);
+    --btnsBackground: rgba(255, 255, 255, 0.15);
+    --btnsHoverColor: #FF2626;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.counter {
+    display: none;
+    position: absolute;
+    top: 97%;
+    left: 28%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    font-size: 2vh;
+    background-color: rgba(0,0,0, 0.65);
+    padding: 1vh 0.5vw;
+    border-radius: 5px;
+    border-bottom: 3px solid var(--layoutColor);
+}
